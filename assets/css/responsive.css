@@ -1,0 +1,9 @@
+@media (max-width: 556px) {
+    .card-book .title {
+        font-size: 14px;
+    }
+
+    .page-link {
+        font-size: 12px;
+    }
+}
