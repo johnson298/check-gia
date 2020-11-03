@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assets/js/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/lib/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/lib/bootstrap-4.0.0/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+</head>
+<body>
+<header id="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <form class="form-inline my-2 my-lg-0 form-search-header">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Nhập tên sách, tác giả..." aria-label="Search">
+                        <span class="icon-s">
+                                <i class="fas fa-search"></i>
+                            </span>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo">
+                        logo
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="action-user">
+                        <a href="" class="btn btn-default btn-login">Đăng nhập</a>
+                        <a href="" class="btn btn-primary btn-vip">Nạp vip</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="searchMobile">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nhập tên sách, tác giả...">
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-primary">Tìm kiếm</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light header-bottom">
+        <div class="container">
+            <div class="action-head">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="logo text-white">
+                    LOGO
+                </div>
+                <button class="btn-search-mobile" data-toggle="modal" data-target="#searchMobile"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">danh mục sách</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">giới thiệu trang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tintuc.html">tin tức</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section class="content">
+    <div class="list-books container p-3">
+        <div class="list-cate">
+            <div class="border-bottom">
+                <h6>Có 2 kết quả tìm kiếm cho từ khóa: <span class="text-primary">sách hay</span></h6>
+            </div>
+            <div class="list-book row-grid grid-md-5 grid-xs-2 gap-4 my-3">
+                <div class="item">
+                    <div class="image">
+                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
+                    </div>
+                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
+                    <h6 class="auth">Haruki Murakami</h6>
+                    <div class="more">
+                        <div class="views"><i class="far fa-eye"></i> 130</div>
+                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
+                    </div>
+                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
+                    <h6 class="auth">Haruki Murakami</h6>
+                    <div class="more">
+                        <div class="views"><i class="far fa-eye"></i> 130</div>
+                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
+                    </div>
+                </div>
+            </div>
+            <nav class="mt-3">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-chevron-left"></i></a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="logo">LOGO</div>
+                <p class="gt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis dicta</p>
+                <ul class="list-info">
+                    <li><i class="fas fa-home"></i> Hà Nội, Việt Nam</li>
+                    <li><i class="fas fa-phone-volume"></i> +0974748494</li>
+                    <li><i class="far fa-envelope"></i> demo@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5 class="title-footer">support</h5>
+                <ul class="cate-footer">
+                    <li>Support</li>
+                    <li>Contact Us</li>
+                    <li>system requirement</li>
+                    <li>site feedback</li>
+                    <li>Lorem ipsum dolor.</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5 class="title-footer">my account</h5>
+                <ul class="cate-footer">
+                    <li>Support</li>
+                    <li>Contact Us</li>
+                    <li>system requirement</li>
+                    <li>site feedback</li>
+                    <li>Lorem ipsum dolor.</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5 class="title-footer">follow us</h5>
+                <ul class="cate-footer">
+                    <li>Support</li>
+                    <li>Contact Us</li>
+                    <li>system requirement</li>
+                    <li>site feedback</li>
+                    <li>Lorem ipsum dolor.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="text-center copyright">
+        <small>Copyright@ 2020 - Made by johnson.dev</small>
+    </div>
+</footer>
+<script src="assets/js/source.js"></script>
+<script src="assets/lib/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+<script src="assets/lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script>
+    jQuery(".slide-report").owlCarousel({
+        autoplay: true,
+        lazyLoad: true,
+        loop: true,
+        margin: 20,
+        /*
+       animateOut: 'fadeOut',
+       animateIn: 'fadeIn',
+       */
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 7000,
+        smartSpeed: 800,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 4
+            },
+
+            1366: {
+                items: 4
+            }
+        }
+    });
+</script>
+</body>
+</html>
