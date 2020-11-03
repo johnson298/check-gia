@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="assets/js/jquery-3.5.1.js"></script>
-    <script src="assets/js/source.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/font/fontawesome/css/all.css">
     <link rel="stylesheet" href="assets/lib/bootstrap-4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/lib/bootstrap-4.0.0/dist/js/bootstrap.min.js">
@@ -41,11 +40,33 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="searchMobile">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nhập tên sách, tác giả...">
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-primary">Tìm kiếm</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light header-bottom">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="action-head">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="logo text-white">
+                    LOGO
+                </div>
+                <button class="btn-search-mobile" data-toggle="modal" data-target="#searchMobile"><i class="fas fa-search"></i></button>
+            </div>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -268,6 +289,7 @@
         </div>
     </div>
 </section>
+
 <footer id="footer">
     <div class="container">
         <div class="row">
@@ -316,6 +338,42 @@
         <small>Copyright@ 2020 - Made by johnson.dev</small>
     </div>
 </footer>
+<script src="assets/js/source.js"></script>
+<script src="assets/lib/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
 <script src="assets/lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script>
+    jQuery(".slide-report").owlCarousel({
+        autoplay: true,
+        lazyLoad: true,
+        loop: true,
+        margin: 20,
+        /*
+       animateOut: 'fadeOut',
+       animateIn: 'fadeIn',
+       */
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 7000,
+        smartSpeed: 800,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 4
+            },
+
+            1366: {
+                items: 4
+            }
+        }
+    });
+</script>
 </body>
 </html>

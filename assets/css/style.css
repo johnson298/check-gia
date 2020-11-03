@@ -17,7 +17,7 @@ body{
 }
 .header-bottom {
     background-color: #242424 !important;
-    padding: 2px;
+    padding: 0;
     position: relative;
 }
 
@@ -487,19 +487,18 @@ ul.cate-footer li {
     padding: 20px;
 }
 #navbarSupportedContent {
-    position: absolute;
     top: 100%;
     left: 0;
     z-index: 9;
-    background: #000;
+    background: #242424;
     width: 100%;
     padding: 0 15px;
 }
 .action-head {
-    display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    display: none;
 }
 
 .action-head .btn-search-mobile {

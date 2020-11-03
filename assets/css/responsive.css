@@ -29,4 +29,7 @@
     .report-list {
         margin: 0;
     }
+    .action-head {
+        display: flex;
+    }
 }
