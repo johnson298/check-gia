@@ -18,6 +18,14 @@
         top: 29px;
     }
 
+    .header-top {
+        display: none;
+    }
+
+    .header-bottom {
+        height: 45px;
+    }
+
     .report-list {
         margin: 0;
     }
