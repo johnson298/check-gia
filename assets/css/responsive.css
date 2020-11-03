@@ -6,4 +6,19 @@
     .page-link {
         font-size: 12px;
     }
+    .list-cate__item span {
+        font-size: 14px;
+    }
+
+    .list-cate__item {
+        padding: 5px;
+    }
+
+    .list-cate__item span:before {
+        top: 29px;
+    }
+
+    .report-list {
+        margin: 0;
+    }
 }
