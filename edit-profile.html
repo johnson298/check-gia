@@ -93,13 +93,123 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i> Trang chủ</a></li>
                 <span class="carret-breadcrumb"><i class="fas fa-angle-right"></i></span>
-                <li class="breadcrumb-item active" aria-current="page">Tủ sách</li>
+                <li class="breadcrumb-item active" aria-current="page">Chỉnh sửa thông tin cá nhân</li>
             </ol>
         </div>
     </nav>
+    <div class="banner-main" style="background-image: url('assets/images/banner.jpg');">
+        <div class="container">
+            <h5 class="text-center text-white">Chỉnh sửa thông tin cá nhân</h5>
+            <div class="change-avt d-flex justify-content-center align-items-center flex-column">
+                <div class="circle-profile">
+                    <img class="profile-pic" src="assets/images/user.jpeg">
+                </div>
+                <div class="p-image">
+                    <button class="button">
+                        <div class="upload-button"></div>
+                        <i class="fa fa-camera"></i> Thay đổi ảnh
+                        <input class="file-upload" type="file" accept="image/*"/>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <div class="box-profile mb-3">
+                        <h6 class="title col-sm-12">Thông tin cá nhân</h6>
+                        <div class="inner w-100 m-0">
+                            <div class="info-item">
+                                <span class="icon"><i class="far fa-user-circle"></i></span>
+                                <div class="content"><strong>Tên tài khoản:</strong> <span>Nguyễn Văn A</span></div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon"><i class="fas fa-database"></i></span>
+                                <div class="content"><strong>Loại tài khoản:</strong> <span class="badge badge-pill badge-primary">Loại thường</span></div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon"><i class="far fa-user-circle"></i></span>
+                                <div class="content"><strong>Hình thức thanh toán:</strong> <span>Chuyển khoản</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-profile mb-3">
+                        <h6 class="title col-sm-12">Lịch sử thanh toán</h6>
+                        <div class="inner w-100 m-0">
+                            <table class="table w-100">
+                                <tr>
+                                    <th>STT</th>
+                                <th>Ngày thanh toán</th>
+                                <th>Phương thức thanh toán</th>
+                                <th>Số tiền</th>
+                                <th>Gói dịch vụ</th>
+                                <th>Trạng thái</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>10/10/2020</td>
+                                    <td>thanh toán trực tiếp</td>
+                                    <td>100.000đ</td>
+                                    <td>VIP 1 năm</td>
+                                    <td><span class="text-danger">Đã hết hạn</span></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>10/10/2020</td>
+                                    <td>thanh toán trực tiếp</td>
+                                    <td>100.000đ</td>
+                                    <td>VIP 1 năm</td>
+                                    <td><span class="text-danger">Đã hết hạn</span></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>10/10/2020</td>
+                                    <td>thanh toán trực tiếp</td>
+                                    <td>100.000đ</td>
+                                    <td>VIP 1 năm</td>
+                                    <td><span class="text-danger">Đã hết hạn</span></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>10/10/2020</td>
+                                    <td>thanh toán trực tiếp</td>
+                                    <td>100.000đ</td>
+                                    <td>VIP 1 năm</td>
+                                    <td><span class="text-success">Đã duyệt</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="box-profile mb-3">
+                        <h6 class="title col-sm-12">Thông tin cá nhân</h6>
+                        <div class="inner w-100 m-0">
+                            <div class="info-item">
+                                <span class="icon"><i class="far fa-clock"></i></span>
+                                <div class="content">Bạn đã đồng hành cùng Dusu: <strong>14</strong> ngày <strong>2</strong>giờ</div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon"><i class="fas fa-book"></i></span>
+                                <div class="content">Bạn đã đọc: <strong>5</strong> cuốn sách</div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon"><i class="far fa-heart"></i></span>
+                                <div class="content">Bạn đã yêu thích: <strong>5</strong>cuốn</div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon"><i class="fas fa-crown"></i></span>
+                                <div class="content">Thời gian VIP còn lại: <strong>14</strong> ngày <strong>2</strong>giờ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="list-books container p-3">
         <div class="title-main">
-            <h5 class="title"><span>Tủ sách</span></h5>
+            <h5 class="title"><span>Sách đề cử</span></h5>
         </div>
         <div class="list-cate">
             <div class="list-cate-wrapper">
@@ -110,10 +220,21 @@
                     <span>Sách đã đọc</span>
                 </div>
             </div>
-            <div class="list-book row-grid grid-md-5 grid-xs-2 gap-4 container mt-5">
+            <div class="list-book row-grid grid-md-5 grid-xs-2 gap-4 mt-5">
                 <div class="item">
                     <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
+                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
+                    </div>
+                    <h5 class="title"><a href="">Lắng nghe gió hát cơn mưa ngang qua trời đấy thiên địa ơi</a></h5>
+                    <h6 class="auth">Haruki Murakami</h6>
+                    <div class="more">
+                        <div class="views"><i class="far fa-eye"></i> 130</div>
+                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
                     </div>
                     <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
                     <h6 class="auth">Haruki Murakami</h6>
@@ -124,9 +245,9 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
+                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
                     </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
+                    <h5 class="title"><a href="">Lắng nghe gió hát Lorem ipsum dolor sit amet, consectetur.</a></h5>
                     <h6 class="auth">Haruki Murakami</h6>
                     <div class="more">
                         <div class="views"><i class="far fa-eye"></i> 130</div>
@@ -135,9 +256,9 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
+                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
                     </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
+                    <h5 class="title"><a href="chitiet.html">Lắng nghe gió hát</a></h5>
                     <h6 class="auth">Haruki Murakami</h6>
                     <div class="more">
                         <div class="views"><i class="far fa-eye"></i> 130</div>
@@ -146,130 +267,9 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
+                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
                     </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href=""><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
+                    <h5 class="title"><a href="">Lắng nghe gió hát Lorem ipsum dolor sit.</a></h5>
                     <h6 class="auth">Haruki Murakami</h6>
                     <div class="more">
                         <div class="views"><i class="far fa-eye"></i> 130</div>
@@ -277,15 +277,6 @@
                     </div>
                 </div>
             </div>
-            <nav class="mt-3">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-chevron-left"></i></a></li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a></li>
-                </ul>
-            </nav>
         </div>
     </div>
 </section>

@@ -746,3 +746,121 @@ ul.info-book li .info {
     width: 120px;
 }
 /* end audio player */
+#profile {
+    padding: 40px 0;
+}
+
+.box-profile .title {
+    background: #008cc9;
+    color: #fff;
+    padding: 10px 15px;
+    border-top-left-radius: 3px;
+    margin: 0;
+    border-top-right-radius: 3px;
+}
+.box-profile .inner {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.box-profile .form-group label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.file-upload {
+    display: none !important;
+}
+.circle-profile {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 8px solid rgb(234 234 234 / 70%);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.p-image {
+    padding-left: 10px;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+}
+.upload-button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.p-image button {
+    position: relative;
+}
+.block-img {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 12px;
+}
+.block-img .img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.block-img img {
+    width: 100%;
+}
+.block-img label {
+    padding-left: 5px;
+    margin-left: 12px;
+}
+.block-list-profile .item.active a{
+    color: #2682d2;
+}
+.p-image button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.info-item {
+    display: flex;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.info-item i {
+    color: #7b7b7b;
+    font-size: 12px;
+}
+.info-item .icon {
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
