@@ -45,4 +45,20 @@
     .card-info .payment-title h1 {
         font-size: 20px;
     }
+    .message__title {
+        font-size: 20px;
+    }
+
+    .message {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .message__button {
+        width: 100%;
+        font-size: 14px;
+        height: auto;
+        max-width: initial;
+        padding: 10px 5px;
+    }
 }
