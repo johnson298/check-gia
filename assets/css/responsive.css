@@ -32,4 +32,17 @@
     .action-head {
         display: flex;
     }
+    .payment-methods .card-payment {
+        flex-wrap: wrap;
+    }
+    .card-payment .form-check {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .card-info .form-container {
+        margin-top: 20px;
+    }
+    .card-info .payment-title h1 {
+        font-size: 20px;
+    }
 }
