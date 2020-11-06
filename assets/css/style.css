@@ -9,6 +9,10 @@
     font-family: 'Comfortaa', cursive;
     font-weight: 500;
     transition:  0.15s linear;
+    outline: none;
+}
+body *:focus{
+    outline: none;
 }
 body{
     width: 100vw;
@@ -533,8 +537,7 @@ ul.cate-footer li {
     width: 100%;
     overflow: hidden;
     text-align: center;
-    padding: 10px 0;
-    padding-top: 0;
+    padding: 10px;
 }
 
 .img-detail img {
@@ -1383,3 +1386,9 @@ ul.list-info li {
     margin-bottom: 6px;
 }
 /*End payment result*/
+.audio-book {
+    margin-top: 10px;
+}
+audio::-webkit-media-controls-panel {
+    background-image: linear-gradient(to top, #78c0e0, #81d0d8, #9eddcc, #c4e7c4, #ebeec7);
+}

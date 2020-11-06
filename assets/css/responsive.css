@@ -61,4 +61,15 @@
         max-width: initial;
         padding: 10px 5px;
     }
+    .grid-news-top {
+        display: block;
+    }
+
+    .grid-news-top > .box-news:nth-child(2) .content-book .title, .grid-news-top > .box-news:nth-child(3) .content-book .title, .banner-main .content-book .title {
+        font-size: 16px;
+    }
+
+    .banner-main .box-news {
+        margin-bottom: 10px;
+    }
 }
