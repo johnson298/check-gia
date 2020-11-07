@@ -8,7 +8,6 @@
 *{
     font-family: 'Comfortaa', cursive;
     font-weight: 500;
-    transition:  0.15s linear;
     outline: none;
 }
 body *:focus{
@@ -451,7 +450,7 @@ ul.cate-footer li {
     position: relative;
     background: #fff;
     padding: 20px;
-    padding-top: 65px;
+    padding-top: 70px;
     box-shadow: 0 2px 6px rgba(0,0,0,.1);
     border-radius: 6px;
 }
@@ -1391,4 +1390,77 @@ ul.list-info li {
 }
 audio::-webkit-media-controls-panel {
     background-image: linear-gradient(to top, #78c0e0, #81d0d8, #9eddcc, #c4e7c4, #ebeec7);
+}
+.card-login-left {
+    box-shadow: 0 0px 18px rgba(0,0,0,.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.card-login-right {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-login-right .title {
+    color: #1594cc;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.login-method {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: #fff;
+}
+
+.login-method.login-fb {
+    background: #3b5998;
+}
+
+.login-method.login-google {
+    background: #fd5d51;
+}
+
+.card-login-right .form-control {
+    margin-bottom: 12px;
+    padding: 11px 8px;
+}
+
+.take-pass {
+    margin-bottom: 12px;
+}
+
+.btn-in-log {
+    font-weight: bold;
+}
+.btn-card-login {
+    background: #efefef00;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #e6e6e6;
+}
+
+.card-login-left .content {
+    color: #e6e6e6;
+}
+
+.btn-card-login:hover {
+    background: #efefef;
+    border-color: transparent;
+    color: #000;
+}
+.btn-in-log {
+    background: #007bff;
+    color: #fff;
+}
+.card-login-left .title {
+    text-align: center;
 }
