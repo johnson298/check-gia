@@ -72,4 +72,23 @@
     .banner-main .box-news {
         margin-bottom: 10px;
     }
+
+    .more-dusu {
+        margin-bottom: 20px;
+    }
+    .more-dusu h6 {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .more-dusu .more-view {
+        margin: 20px;
+    }
+
+    .title-about {
+        font-size: 24px !important;
+    }
+    .acc-item {
+        font-size: 14px;
+    }
 }

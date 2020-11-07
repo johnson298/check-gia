@@ -638,7 +638,6 @@ ul.info-book li .info {
     width: 350px;
     background: #444;
     box-shadow: 0 0 20px 0 #000a;
-    font-family: arial;
     color: white;
     font-size: 0.75em;
     overflow: hidden;
@@ -1463,4 +1462,98 @@ audio::-webkit-media-controls-panel {
 }
 .card-login-left .title {
     text-align: center;
+}
+.img-about {
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-about img {
+    max-width: 70%;
+}
+
+.title-about {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.after-border {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: #709bff;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 25px;
+}
+.title-about-head{
+    position: relative;
+}
+.more-dusu {
+    width: 100%;
+    position: relative;
+}
+
+.more-dusu img {
+    width: 100%;
+}
+
+.more-dusu h6 {
+    position: absolute;
+    top: 0;
+    width: 70%;
+    left: 0;
+    padding: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+.more-dusu .more-view {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: none;
+    color: #249acf !important;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #fff;
+    transition: .3s linear;
+}
+
+.more-dusu .more-view:hover {
+    background: none;
+    color: #fff !important;
+    transform: translateY(-5px);
+}
+
+.open-sign{
+    display: inline-block;
+}
+
+.acc-item{
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.acc-item.active{
+    background: #007bff;
+    color: #fff;
+}
+
+.acc-item-description{
+    display:none;
+    padding:10px 0;
+}
+.img-about-bot {
+    width: 100%;
+}
+
+.img-about-bot img {
+    width: 100%;
 }
