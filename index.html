@@ -14,60 +14,12 @@
     <link rel="stylesheet" href="assets/lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
 </head>
 <body>
-<header id="header">
-    <div class="header-top">
+<div id="top-web" style="background-image: url('./assets/images/banner.png');">
+    <nav class="navbar navbar-expand-lg header-bottom">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <form class="form-inline my-2 my-lg-0 form-search-header">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Nhập tên sách, tác giả..." aria-label="Search">
-                        <span class="icon-s">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </form>
-                </div>
-                <div class="col-md-4">
-                    <div class="logo">
-                        logo
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="action-user">
-                        <a href="login.html" class="btn btn-default btn-login">Đăng nhập</a>
-                        <a href="hinhthucthanhtoan.html" class="btn btn-primary btn-vip">Nạp vip</a>
-                    </div>
-                </div>
+            <div class="logo">
+                <img src="./assets/images/logo.png" alt="">
             </div>
-        </div>
-    </div>
-    <div class="modal fade" id="searchMobile">
-        <div class="modal-dialog " role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <form action="">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nhập tên sách, tác giả...">
-                        </div>
-                        <div class="text-right">
-                            <button class="btn btn-primary">Tìm kiếm</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light header-bottom">
-        <div class="container">
-            <div class="action-head">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars text-white"></i>
-                </button>
-                <div class="logo text-white">
-                    LOGO
-                </div>
-                <button class="btn-search-mobile" data-toggle="modal" data-target="#searchMobile"><i class="fas fa-search"></i></button>
-            </div>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -86,271 +38,375 @@
             </div>
         </div>
     </nav>
-</header>
-<section class="content">
-    <div class="banner-home">
-        <div class="img-wrap">
-            <img src="assets/images/banner-home.jpg" alt="">
-        </div>
-        <div class="content-banner">
-            <div class="container">
-                <div class="col-sm-6">
-                    <h1 class="title-banner">Wellcome to <strong>DUSU</strong></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, impedit maxime neque perspiciatis provident sunt.</p>
-                </div>
-            </div>
+    <div class="container">
+        <div class="ct-banner">
+            <h1 class="title-bn">Bảo vệ bạn 100% khi mua hàng online</h1>
+            <h4>Giúp bạn tránh bẫy khuyến mại ảo, hàng kém chất lượng trên shopee</h4>
+            <form action="" class="form-search">
+                <input type="text" class="txt-search" placeholder="Vui lòng nhập sản phẩm bạn đang tìm kiếm, hoặc dán URL sản phẩm...">
+                <button class="btn btn-search">Tìm kiếm</button>
+            </form>
         </div>
     </div>
-    <div class="list-books container p-3">
-        <div class="title-main">
-            <h5 class="title"><span>Sách đề cử</span></h5>
-        </div>
-        <div class="list-cate">
-            <div class="list-cate-wrapper">
-                <div class="list-cate__item active">
-                    <span>Mới nhất</span>
-                </div>
-                <div class="list-cate__item">
-                    <span>Đọc nhiều</span>
-                </div>
-                <div class="list-cate__item">
-                    <span>Nghe nhiều</span>
-                </div>
-                <div class="list-cate__item">
-                    <span>Đọc thử</span>
-                </div>
-            </div>
-            <div class="list-book row-grid grid-md-5 grid-xs-2 gap-4 mt-5">
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát cơn mưa ngang qua trời đấy thiên địa ơi</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát Lorem ipsum dolor sit amet, consectetur.</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="chitiet.html">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát Lorem ipsum dolor sit.</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="chitiet.html"><img src="assets/images/product-book.jpg" alt=""></a>
-                    </div>
-                    <h5 class="title"><a href="">Lắng nghe gió hát</a></h5>
-                    <h6 class="auth">Haruki Murakami</h6>
-                    <div class="more">
-                        <div class="views"><i class="far fa-eye"></i> 130</div>
-                        <div class="audio"><i class="fas fa-headphones"></i> 130</div>
-                    </div>
+</div>
+<div class="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-12">
+                <div class="title-main-sd">
+                    <h2 class="title-bg">our service</h2>
+                    <h2 class="tl">Dịch vụ của chúng tôi</h2>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="report" style="background-image: url(assets/images/bg-report.jpg);">
-        <div class="container">
-            <div class="title-main">
-                <h5 class="title"><span>Chia sẻ của độc giả</span></h5>
+        <div class="row">
+            <div class="col-sm-6 col-12">
+                <img src="./assets/images/box.png" alt="" class="img-box">
             </div>
-            <div class="report-list">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="owl-carousel slide-report owl-theme owl-loaded">
-                            <div class="box-report">
-                                <div class="inner">
-                                    <div class="img">
-                                        <img src="assets/images/user.jpeg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur"</span>
-                                    </div>
-                                    <h5 class="author">John Smith</h5>
-                                </div>
-                            </div>
-                            <div class="box-report">
-                                <div class="inner">
-                                    <div class="img">
-                                        <img src="assets/images/user.jpeg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur"</span>
-                                    </div>
-                                    <h5 class="author">John Smith</h5>
-                                </div>
-                            </div>
-                            <div class="box-report">
-                                <div class="inner">
-                                    <div class="img">
-                                        <img src="assets/images/user.jpeg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur"</span>
-                                    </div>
-                                    <h5 class="author">John Smith</h5>
-                                </div>
-                            </div>
-                            <div class="box-report">
-                                <div class="inner">
-                                    <div class="img">
-                                        <img src="assets/images/user.jpeg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur"</span>
-                                    </div>
-                                    <h5 class="author">John Smith</h5>
-                                </div>
-                            </div>
-                            <div class="box-report">
-                                <div class="inner">
-                                    <div class="img">
-                                        <img src="assets/images/user.jpeg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur"</span>
-                                    </div>
-                                    <h5 class="author">John Smith</h5>
-                                </div>
-                            </div>
+            <div class="col-sm-6 col-12">
+                <div class="rw">
+                    <div class="rw-item">
+                        <div class="img">
+                            <img src="./assets/images/b1.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <h5>Bảo vệ túi tiền</h5>
+                            <p>Kiểm tra giá của sản phẩm trong 6 tháng vừa qua, giúp bạn không mất tiền oan.</p>
+                        </div>
+                    </div>
+                    <div class="rw-item">
+                        <div class="img">
+                            <img src="./assets/images/b2.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <h5>Review sản phẩm</h5>
+                            <p>Bài viết review sản phẩm và shop chân thật nhất.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="logo">LOGO</div>
-                <p class="gt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis dicta</p>
-                <ul class="list-info">
-                    <li><i class="fas fa-home"></i> Hà Nội, Việt Nam</li>
-                    <li><i class="fas fa-phone-volume"></i> +0974748494</li>
-                    <li><i class="far fa-envelope"></i> demo@gmail.com</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5 class="title-footer">support</h5>
-                <ul class="cate-footer">
-                    <li>Support</li>
-                    <li>Contact Us</li>
-                    <li>system requirement</li>
-                    <li>site feedback</li>
-                    <li>Lorem ipsum dolor.</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5 class="title-footer">my account</h5>
-                <ul class="cate-footer">
-                    <li>Support</li>
-                    <li>Contact Us</li>
-                    <li>system requirement</li>
-                    <li>site feedback</li>
-                    <li>Lorem ipsum dolor.</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5 class="title-footer">follow us</h5>
-                <ul class="cate-footer">
-                    <li>Support</li>
-                    <li>Contact Us</li>
-                    <li>system requirement</li>
-                    <li>site feedback</li>
-                    <li>Lorem ipsum dolor.</li>
-                </ul>
+</div>
+<section class="content">
+    <div class="menu-mid">
+        <div class="container">
+            <div class="menu-mid-ct">
+                <div class="menu-item"><a href="">Đồng hồ</a></div>
+                <div class="menu-item"><a href="">điện tử - tủ lạnh</a></div>
+                <div class="menu-item"><a href="">thiết bị gia dụng</a></div>
+                <div class="menu-item"><a href="">công nghệ</a></div>
+                <div class="menu-item"><a href="">mỹ phẩm làm đẹp</a></div>
+                <div class="menu-item"><a href="">nhà cửa đời sống</a></div>
             </div>
         </div>
     </div>
-    <div class="text-center copyright">
-        <small>Copyright@ 2020 - Made by johnson.dev</small>
+    <div class="banner-main">
+        <div class="container">
+            <div class="title-main-sd">
+                <h2 class="title-bg">feature article</h2>
+                <h2 class="tl">Bài viết nổi bật</h2>
+            </div>
+            <div class="grid-news-top">
+                <div class="box-news">
+                    <div class="tag-name">Thiết bị gia dụng</div>
+                    <div class="image">
+                        <a href="">
+                            <img src="assets/images/book.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="content-book">
+                        <h5 class="title">
+                            <a href="">
+                                Kinh nghiệm mua máy xay nào tốt nhất
+                            </a>
+                            <p class="m-0"><small>10 tháng 10, 2020</small></p>
+                            <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vitae quae saepe dolor placeat fuga.</p>
+                        </h5>
+                    </div>
+                </div>
+                <div class="box-news">
+                    <div class="image">
+                        <a href="">
+                            <img src="assets/images/book.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="content-book">
+                        <h5 class="title">
+                            <a href="">
+                                10 cuốn sách nghệ thuật về nghệ thuật lãnh đạo cần đọc trước tuổi 30
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="box-news">
+                    <div class="image">
+                        <a href="">
+                            <img src="assets/images/book.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="content-book">
+                        <h5 class="title">
+                            <a href="">
+                                10 cuốn sách nghệ thuật về nghệ thuật lãnh đạo cần đọc trước tuổi 30
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-x">
+        <div class="list-books container p-3">
+            <div class="title-main">
+                <h5 class="title"><span>Thiết bị gia dụng</span></h5>
+            </div>
+            <div class="list-cate">
+                <div class="list-book row-grid grid-md-4 grid-xs-2 gap-4 mt-5">
+                    <div class="item">
+                        <div class="tag-name">Thiết bị gia dụng</div>
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                </div>
+                <div class="list-more">
+                    <a href="" class="btn btn-more">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="list-books container p-3">
+            <div class="title-main">
+                <h5 class="title"><span>Công nghệ</span></h5>
+            </div>
+            <div class="list-cate">
+                <div class="list-book row-grid grid-md-4 grid-xs-2 gap-4 mt-5">
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                </div>
+                <div class="list-more">
+                    <a href="" class="btn btn-more">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-x">
+        <div class="list-books container p-3">
+            <div class="title-main">
+                <h5 class="title"><span>Mỹ phẩm làm đẹp</span></h5>
+            </div>
+            <div class="list-cate">
+                <div class="list-book row-grid grid-md-4 grid-xs-2 gap-4 mt-5">
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <a href="chitiet.html"><img src="assets/images/sp.png" alt=""></a>
+                        </div>
+                        <h5 class="title"><a href="">Nên chọn máy hút mùi loại nào tốt nhất hiện nay</a></h5>
+                        <div class="date-sp"><small>10 Tháng 10, 2020</small></div>
+                        <p class="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem quidem, optio quis quas dolores, qui amet eaque ipsa</p>
+                    </div>
+                </div>
+                <div class="list-more">
+                    <a href="" class="btn btn-more">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer" style="background-image: url('./assets/images/footer.png');">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="logo-foot"><img src="./assets/images/logo-footer.png" alt=""></div>
+            </div>
+            <div class="col-sm-9">
+                <ul class="list-footer">
+                    <li><a href="">giới thiệu</a></li>
+                    <li><a href="">điều khoản</a></li>
+                    <li><a href="">chính sách bảo mật</a></li>
+                    <li><a href="">liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
 <script src="assets/js/source.js"></script>
